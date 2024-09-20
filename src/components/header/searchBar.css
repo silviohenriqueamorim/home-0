@@ -1,0 +1,27 @@
+.searchBar {
+    transition: all 0.3s ease; /* Transição suave para alterações na barra de pesquisa */
+  }
+  
+  .searchBar:focus {
+    border-color: rgb(255, 165, 165);
+    box-shadow: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave para a borda e sombra */
+  }
+  
+  .formi {
+    
+    padding: 0 25px;
+    transition: padding-right 0.3s ease; /* Suaviza a transição do padding */
+  }
+  
+@media (max-width: 490px) {
+  .searchBar{
+    height: 30px;
+    min-width: none;
+  }
+
+  .formi {
+    min-width: none;
+    padding: 0 10px;
+  }
+}

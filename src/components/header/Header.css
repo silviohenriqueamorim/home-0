@@ -1,0 +1,156 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px; /* Opcional: Adiciona um pouco de espaçamento interno */
+  transition: all 0.3s ease; /* Transição suave para mudanças em todos os estilos */
+}
+.header-container{
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sidebar {
+  display: none; /* Oculta a barra lateral */
+  transition: display 0.3s ease; /* Suaviza a transição de exibição */
+}
+
+
+
+.left, .right {
+  display: flex;
+  transition: all 0.3s ease; /* Transição suave para mudanças em todos os estilos */
+}
+
+.scroll-container {
+  overflow: hidden; /* Oculta a barra de rolagem */
+  transition: all 0.3s ease; /* Suaviza a transição de rolagem */
+}
+
+.headerText {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  color: rgb(27, 27, 27);
+  transition: color 0.3s ease; /* Transição suave para a cor do texto */
+}
+
+.headerText:hover {
+  transform:scale(1.05);
+  color: rgb(255, 255, 255);
+  border-radius: 2px;
+  background-color: rgb(255, 0, 0);
+  
+  transition: transform 0.1s ease;
+}
+
+.searchBar {
+  transition: all 0.3s ease; /* Transição suave para alterações na barra de pesquisa */
+} 
+
+.formi {
+  padding-right: 5px;
+  transition: padding-right 0.3s ease; /* Suaviza a transição do padding */
+}
+
+.hiader {
+  width: 90%;
+  margin: auto;
+  transition: width 0.3s ease, margin 0.3s ease; /* Suaviza a transição da largura e da margem */
+}
+.secondary-nav>ul>li>a{
+  height: 20px;
+  text-align: center;
+  background-color: red;
+  color: aliceblue;
+}
+.mini {
+  display: none;
+}
+.alinhador{
+  margin: auto;
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+}
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.secondary-nav {
+  background-color: rgba(230, 230, 230, 0.795); /* Ajuste a transparência conforme necessário */
+  position: absolute; /* Para sobrepor o conteúdo do page */
+  width: 100%; /* Para ocupar toda a largura */
+  top: 100%; /* Posiciona logo abaixo do header */
+  left: 0;
+  z-index: 1000; /* Para garantir que fique acima de outros elementos */
+}
+
+
+@media (min-width: 600px) and (max-width: 991.98px) {
+  .normal {
+    display: none;
+  }
+  .mini {
+    display: flex;
+  }
+  .menu-icon{display: none;}
+}
+
+@media (max-width: 599.98px) {
+  .normal {
+    display: none;
+  }
+  .mini {
+    display: flex;
+  }
+  .perfil{display: none;}
+}
+
+@media (min-width: 992px) {
+  .normal {
+    display: flex; 
+  }
+  .mini {
+    display: none;
+  }
+}
+/* Header.css */
+.header-container {
+  position: relative; /* Para garantir que o subheader esteja posicionado corretamente */
+}
+
+
+.subheader .headerText {
+  color: #000; /* Ajuste a cor do texto conforme necessário */
+}
+
+.subheaderText{
+  padding: 0%;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  color: rgb(27, 27, 27);
+  transition: color 0.3s ease; /* Transição suave para a cor do texto */
+}
+.subheaderBox{
+  
+  padding: 0%;
+}
+.subheaderBox>a{
+  color: rgb(0, 0, 0);
+}
+.subheaderBox:hover{
+  border: solid 1px rgba(167, 167, 167, 0.171);
+  background-color: rgba(255, 0, 0, 0.226);
+}
+
+@media (max-width: 490px) {
+  .hiader{width: 100%;}
+  .alinhador{width: 97vw;}
+  .navbar-brand{margin: 0px; padding: 0 0 0 5px; width: 19vw;}
+}

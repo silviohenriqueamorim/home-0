@@ -1,0 +1,15 @@
+.logo-image {
+  user-select: none;
+  height: 60px; /* Ajuste a altura do logo conforme necessário */
+  width: auto; /* Mantém a proporção do logo */
+}.logo-image:hover {
+  transform: scale(1.005);
+  transition: transform 0.3s ease;
+}
+  
+@media (max-width: 490px) {
+  .logo-image{
+    height: 10vw;
+  }
+
+}

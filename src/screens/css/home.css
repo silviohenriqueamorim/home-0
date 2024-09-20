@@ -1,0 +1,5 @@
+
+/* Oculta a barra de rolagem em toda a página */
+html, body {
+    overflow: hidden; /* Oculta a barra de rolagem */
+  }

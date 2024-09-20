@@ -1,0 +1,14 @@
+*{        /*  * seletor global  */
+  margin: 0 auto;       /*  margem cima e baixo 0 e esquerda e direita auto  */
+  font-family: sans-serif;    /*  fonte sem serif, sem o tracinho  */
+  box-sizing: border-box;   
+}
+
+body{
+  background-color: #ffffff;
+  height: 100vh;    /*  altura do tamanho da tela do usuário  */
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;   /*  um abaixo do outro em forma de coluna  */
+}
