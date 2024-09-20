@@ -1,13 +1,15 @@
 import Header from '../components/header/Header';
 import './css/home.css'
-import { Content } from "./content";
+import Carrosel from './Carrosel';
+import Card from './Card'
 
 
 const Home = () => {
     return (
       <div>
         <Header />
-        <Content />
+        <Carrosel />
+        <Card />
       </div>
     );
 };

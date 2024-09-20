@@ -62,7 +62,6 @@ const Header = () => {
           </div>
           <Menu/>
       </nav>
-
       {/* Barra de Navegação Secundária */}
       <div className={`secondary-nav ${isSubHeaderVisible ? 'd-block' : 'd-none'}`}>
         <div className='row subheader'>
