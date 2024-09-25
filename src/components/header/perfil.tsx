@@ -1,4 +1,4 @@
-import perfilImage from '../assets/perfil1.png'; // Substitua pelo caminho para a sua imagem de perfil
+import perfilImage from '../../assets/perfil1.png';
 import './perfil.css'; // Arquivo CSS para estilizar o perfil, se necessário
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';

@@ -15,8 +15,6 @@
   transition: display 0.3s ease; /* Suaviza a transição de exibição */
 }
 
-
-
 .left, .right {
   display: flex;
   transition: all 0.3s ease; /* Transição suave para mudanças em todos os estilos */
